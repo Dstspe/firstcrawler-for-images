@@ -16,7 +16,7 @@ import datetime
 
 def downloadImg(url, m, n):    #m为起始页，n为末页
 
-    os.chdir(os.path.join(r'E:\forcode\code\photos2'))   #保持在当前目录，可不用os.path.join
+    os.chdir(r'E:\****')   #保持在当前目录
     t = 1  # 记录图片张数
     headers = {'User-Agent':  'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.84 Safari/537.36'}    
         
