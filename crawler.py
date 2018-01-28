@@ -46,7 +46,7 @@ def downloadImg(url, m, n):    #m为起始页，n为末页
 starttime = datetime.datetime.now()
 
 if __name__ == '__main__':    #仅在本文件中进行
-    downloadImg("https://qingbuyaohaixiu.com", 110, 110)
+    downloadImg(url, 1, 110)
     endtime = datetime.datetime.now()
     total_time = endtime - starttime
     print('用时： ' + str(total_time))  #计时
